@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6e67830b91a3f699668fda70ba325612 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6e67830b91a3f699668fda70ba325612" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6e67830b91a3f699668fda70ba325612 = L.map(
+                "map_6e67830b91a3f699668fda70ba325612",
+                {
+                    center: [52.23, 21.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ba9abc98102afcfebe04a29c54827175 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_ba9abc98102afcfebe04a29c54827175.addTo(map_6e67830b91a3f699668fda70ba325612);
+        
+    
+            var marker_1a614051ba5ae62f507fb7315e090689 = L.marker(
+                [51.776667, 19.454722],
+                {
+}
+            ).addTo(map_6e67830b91a3f699668fda70ba325612);
+        
+    
+        var popup_003d273233bfe37d8f085eb8b0a3c0cd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d37c57a0260135e9e7273c879ba1cad8 = $(`<div id="html_d37c57a0260135e9e7273c879ba1cad8" style="width: 100.0%; height: 100.0%;"><img src="https://geoforum.pl/upload3/news_pl/picture/328_geodeta_artykul6.jpg"/></div>`)[0];
+                popup_003d273233bfe37d8f085eb8b0a3c0cd.setContent(html_d37c57a0260135e9e7273c879ba1cad8);
+            
+        
+
+        marker_1a614051ba5ae62f507fb7315e090689.bindPopup(popup_003d273233bfe37d8f085eb8b0a3c0cd)
+        ;
+
+        
+    
+    
+            var marker_deef03e9d7f0ac2efa4715ce4d51cc0b = L.marker(
+                [52.408333, 16.934167],
+                {
+}
+            ).addTo(map_6e67830b91a3f699668fda70ba325612);
+        
+    
+        var popup_5dcc684351287dff8218d680d4c9630d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3fda8d5fff624358dd863d67cdade04d = $(`<div id="html_3fda8d5fff624358dd863d67cdade04d" style="width: 100.0%; height: 100.0%;"><img src="https://geoforum.pl/upload3/news_pl/picture/328_geodeta_artykul6.jpg"/></div>`)[0];
+                popup_5dcc684351287dff8218d680d4c9630d.setContent(html_3fda8d5fff624358dd863d67cdade04d);
+            
+        
+
+        marker_deef03e9d7f0ac2efa4715ce4d51cc0b.bindPopup(popup_5dcc684351287dff8218d680d4c9630d)
+        ;
+
+        
+    
+    
+            var marker_946dcee10bf0382e86ffe46d98f30ee2 = L.marker(
+                [52.166667, 22.275],
+                {
+}
+            ).addTo(map_6e67830b91a3f699668fda70ba325612);
+        
+    
+        var popup_c14b046bff6a1fe0cdaf49fa0d576c24 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_708718baa371855f06cd2e8e46ed1967 = $(`<div id="html_708718baa371855f06cd2e8e46ed1967" style="width: 100.0%; height: 100.0%;"><img src="https://geoforum.pl/upload3/news_pl/picture/328_geodeta_artykul6.jpg"/></div>`)[0];
+                popup_c14b046bff6a1fe0cdaf49fa0d576c24.setContent(html_708718baa371855f06cd2e8e46ed1967);
+            
+        
+
+        marker_946dcee10bf0382e86ffe46d98f30ee2.bindPopup(popup_c14b046bff6a1fe0cdaf49fa0d576c24)
+        ;
+
+        
+    
+    
+            var marker_668890ac4ab07baae0e6bd89cd47f467 = L.marker(
+                [53.486944, 18.756944],
+                {
+}
+            ).addTo(map_6e67830b91a3f699668fda70ba325612);
+        
+    
+        var popup_3e34b640fc93716e256c667db5e44b7b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b9fa75adf26eb051da22a099a72dda44 = $(`<div id="html_b9fa75adf26eb051da22a099a72dda44" style="width: 100.0%; height: 100.0%;"><img src="https://geoforum.pl/upload3/news_pl/picture/328_geodeta_artykul6.jpg"/></div>`)[0];
+                popup_3e34b640fc93716e256c667db5e44b7b.setContent(html_b9fa75adf26eb051da22a099a72dda44);
+            
+        
+
+        marker_668890ac4ab07baae0e6bd89cd47f467.bindPopup(popup_3e34b640fc93716e256c667db5e44b7b)
+        ;
+
+        
+    
+</script>
+</html>
